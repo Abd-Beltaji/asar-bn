@@ -1,6 +1,6 @@
 {
-  "name": "asar",
-  "description": "Creating Electron app packages",
+  "name": "asar-bn",
+  "description": "A version of asar that treats negative size as zero",
   "version": "0.0.0-development",
   "main": "./lib/asar.js",
   "types": "./lib/index.d.ts",
@@ -16,13 +16,13 @@
     "node": ">=10.12.0"
   },
   "license": "MIT",
-  "homepage": "https://github.com/electron/asar",
+  "homepage": "https://github.com/Abd-Beltaji/asar-bn",
   "repository": {
     "type": "git",
-    "url": "https://github.com/electron/asar.git"
+    "url": "https://github.com/Abd-Beltaji/asar-bn.git"
   },
   "bugs": {
-    "url": "https://github.com/electron/asar/issues"
+    "url": "https://github.com/Abd-Beltaji/asar-bn/issues"
   },
   "scripts": {
     "mocha": "xvfb-maybe electron-mocha --reporter spec && mocha --reporter spec",
